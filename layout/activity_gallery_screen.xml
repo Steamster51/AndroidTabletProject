@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryScreen">
+
+    <ScrollView
+        android:layout_width="898dp"
+        android:layout_height="1150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="#5C5C5C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="seeDetails1"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_cellOne"
+                        android:layout_width="300sp"
+                        android:layout_height="300sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:scaleType="fitCenter"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ap1p1" />
+
+                    <TextView
+                        android:id="@+id/textView_cellOneHeader"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="1"
+                        android:text="#3301 -159 WELLESLEY ST E"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellOne"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_cellOneDescription"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="20dp"
+                        android:text="$2100 per month. Never Lived-In Corner Unit Condo, Laminate Flooring Throughout, Large Windows, Close To Bloor St., Yorkville, University Of Toronto, Queens Park, Ryerson, Close To 2 Subway Lines, Quick Exit To 404. S/S Integrated Appliances, Modern Open Concept Kitchen, Quartz Countertop, High Ceilings, Open Balcony, Unobstructed City and Cn Tower Views.**** EXTRAS **** Morden Appliances: Fridge, Stove, Rangehood, Dishwasher, Stacked Washer And Dryer. Utilities Paid By The Tenant, Non-Smoking. (29488599)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellOne"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_cellOneHeader" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="seeDetails2"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_cellTwo"
+                        android:layout_width="300sp"
+                        android:layout_height="300sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:scaleType="fitCenter"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ap2p1" />
+
+                    <TextView
+                        android:id="@+id/textView_cellTwoHeader"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="1"
+                        android:text="#2202 -159 WELLESLEY ST E"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellTwo"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_cellTwoDescription"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="$2000 per month. * Brand New One Bedroom With Unobstructed City View * Living Room Can Be Converted To 2nd Bedroom * Located In Heart Of Downtown * Surrounded By Popular Restaurants, Grocery Stores, Cafe And Bars * Close To University Of Toronto and Ryerson University * Well Designed Practical Layout * Spacious Room W/Floor To Ceiling Window * Amenities Include: 24 Hour Concierge, Gym, Studio W/Yoga Room and Zen Inspired Sauna ***** EXTRAS **** Fridge, Stove, Built-In Dishwasher, Washer, Dryer, All Elfs And Window Coverings *** Tenant Pays Own Hydro, Tenant Insurance A Must *** Non Smoker, No Pet. (29608559)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellTwo"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_cellTwoHeader" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="seeDetails3"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_cellThree"
+                        android:layout_width="300sp"
+                        android:layout_height="300sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ap3p1" />
+
+                    <TextView
+                        android:id="@+id/textView_cellThreeHeader"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="1"
+                        android:text="#457 -49 MCCAUL ST"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellThree"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_cellThreeDescription"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="$2750 per month. 'Village By The Grange' 1 Bedroom Luxury Fully Furnished Executive Suites In Heart Of Toronto's Financial/Health District. Walking Distance To, Hospitals, Banks, Universities, Major Shops (Eaton Centre, Trendy Yonge/Queen St), Grange Park, Restaurants, Food Court, Neighborhood Markets, Galleries, Entertainment, Nightlife. Immerse Yourself In The Cultural Flavors Of Chinatown, Kensington Market. Walkscore 99. Steps To Transit, Subways.**** EXTRAS **** All-Inclusive Rent: Utilities, Ac, Internet, Cable, Water, Gourmet Kitchen, Tv, Furnishings, Spacious Balcony, Complex Recreation/Pool, Laundry (Accessible On-Site). Parking Extra $230/Mth (29482688)"
+                        android:textColor="#F2F2F2"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellThree"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_cellThreeHeader" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="seeDetails4"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_cellFour"
+                        android:layout_width="300sp"
+                        android:layout_height="300sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ap4p1" />
+
+                    <TextView
+                        android:id="@+id/textView_cellFourHeader"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="1"
+                        android:text="#S537 -35 ROLLING MILLS RD"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellFour"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_cellFourDescription"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Brand New 1 Bedroom Condo In Canary Commons. 527 Sq. Ft. Unit With Full Balcony. Park View, 9 Ft. Ceilings. Unit Has Modern Finishes With B/I Appliances. Walking Distance To The Park, Distillery And The Lake. Public Transit Steps Away And Community Centre Steps Away. Internet Included.**** EXTRAS **** B/I Fridge, Stove, Microwave, Dishwasher, Washer and Dryer, Quartz Countertops, 9 Ft. Smooth Ceilings, W/O To Large Balcony, 1 Locker and Internet Access Included. State Of The Art Gym, Rooftop Garden/Courtyard. (29710857)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellFour"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_cellFourHeader" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="seeDetails5"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_cellFive"
+                        android:layout_width="300sp"
+                        android:layout_height="300sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ap5p1" />
+
+                    <TextView
+                        android:id="@+id/textView_cellFiveHeader"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="1"
+                        android:text="#1013 -188 CUMBERLAND ST"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellFive"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_cellFiveDescription"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Luxury One Bedroom In The Heart Of Toronto's Coveted Yorkville Neighborhood. A Perfect Spot For Young Professionals and Students, Cumberland Tower Offers Residents A Lifestyle Of Seductive Glamour And World-Class Elegance. Expansive Floor-To-Ceiling Windows, Engineered Laminate Plank Floors, Custom Designed Kitchen Cabinetry With Stone Counters And Integrated Miele Appliances. Steps To All Amenities: U Of T, Rom, Subway, Shopping, Upscale Restaurants..Etc.**** EXTRAS **** All Existing Appliances and All Existing Electrical Light Fixtures And Blinds. Photos For Reference Only. (29805108)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellFive"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_cellFiveHeader" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="seeDetails6"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_cellSix"
+                        android:layout_width="300sp"
+                        android:layout_height="300sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ap6p1" />
+
+                    <TextView
+                        android:id="@+id/textView_cellSixHeader"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="1"
+                        android:text="#508 -61 YORKVILLE AVE"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellSix"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_cellSixDescription"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Luxury Renovated 1Bd+ Den 1Ba At Minto Yorkville Approx 76S Sq Ft. With Modern Fixtures, Stainless Steel Appliances, and Kitchen Island. Extend Your Sq Ft W/ Amazing Amenities Incl Balcony, Fitness Centre and Yoga Studio, Theatre Room, Residents Lounge, Morning Coffee and News Paper and More!**** EXTRAS **** Fridge, Stove, Dishwasher, Washer, Dryer, Heat Included, Rental Underground Parking $300/Month, Valet Parking $400/Month Storage Locker $80 (29796554)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellSix"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_cellSixHeader" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="seeDetails7"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_cellSeven"
+                        android:layout_width="300sp"
+                        android:layout_height="300sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ap7p1" />
+
+                    <TextView
+                        android:id="@+id/textView_cellSevenHeader"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="1"
+                        android:text="#204 -260 SACKVILLE ST"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellSeven"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_cellSevenDescription"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Beautiful One Bedroom Condo Located In The Heart Of Regent Park. Open Concept Layout, Large Balcony, 9Ft Ceilings, 1 Lockers + 1 Parking Included. Incredible Amenities Include Rooftop Deck With Bbq's, Gym, Games Room, Wifi Lounge, Visitor Parking and Concierge. Walk To 24Hr Ttc Bus Station, Daniel's Spectrum and Community Centre, Shops.**** EXTRAS **** Fridge,Top Range, Hood Fan, Microwave, Dishwasher, Washer And Dryer, Window Coverings. (29648530)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellSeven"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_cellSevenHeader" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="seeDetails8"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_cellEight"
+                        android:layout_width="300sp"
+                        android:layout_height="300sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ap8p1" />
+
+                    <TextView
+                        android:id="@+id/textView_cellEightHeader"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="1"
+                        android:text="#LOWER -431 JONES AVE"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellEight"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_cellEightDescription"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Fully Furnished, Renovated 1 Br Lower Level Suite W/ All Utilities (No Cable) This Gorgeous Unit Features An Open Concept Living/Dining Room, Private Entrance, And New Flooring Throughout. Kitchen W/ Stainless Steel Microwave And Fridge, And Integrated Stovetop, Oven, And Dishwasher. Wall Mounted Electric Fireplace In Living Room. 3Pc Bath W/ Glassed In Shower, And Bedroom W/ Large Closet And B/I Shelving. Located Within Walking Distance To Vibrant Greektown!**** EXTRAS **** Utilities Included (Heat, Hydro, Water, and Wifi). Fully Furnished. Fridge, Stove, Dishwasher, Microwave. Ensuite Washer And Dryer. $1000 Furniture Required. (29705705)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellEight"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_cellEightHeader" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="seeDetails9"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_cellNine"
+                        android:layout_width="300sp"
+                        android:layout_height="300sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ap9p1" />
+
+                    <TextView
+                        android:id="@+id/textView_cellNineHeader"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="1"
+                        android:text="#MAIN -53 STANDISH AVE"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellNine"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewcellNineDescription"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Character-Filled 2 Bedroom Apt. On The Main Floor And Basement In North Rosedale Duplex. Walk-Out To Deck And Semi-Private Garden. Warm Hardwood On Main. Fireplace, New Flooring In Basement. Ensuite Laundry And Extra Storage In Private Shed. 1 Block From Chorley Park and Summerhill Bus.**** EXTRAS **** Fridge, Stove, Dishwasher, Washer, Dryer. Tenant Pays Own Hydro And 2/3 Heat. 1 Front Yard Parking Space Included. 2-4Pc Washrooms. Non-Smoker. Tenant Tends To Yard And Shovels Snow. (29786568)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellNine"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_cellNineHeader" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="seeDetails10"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_cellTen"
+                        android:layout_width="300sp"
+                        android:layout_height="300sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ap10p1" />
+
+                    <TextView
+                        android:id="@+id/textView_cellTenHeader"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="1"
+                        android:text="#403 -20 TUBMAN AVE"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellTen"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_cellTenDescription"
+                        android:layout_width="550sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="One Of The The Best South Facing Units At Wyatt. 10Ft. Ceilings and Excellent Floor Plan With No Wasted Space! Oversized South-Facing Balcony, Open Concept Living And Dining and A Large U-Shaped Kitchen. Modern Finishes, Integrated Appliances and Quality Construction. Steps To The Best Of Downtown Toronto, Mlse Athletic Grounds, Aquatic Centre, Riverdale Park, Canary District, Toronto Eaton Centre And Seconds To The Dvp.**** EXTRAS **** Integrated S/S Appliances (Cook Top, Fridge, Oven, Microwave, Dw, Hood Fan), 1 Parking and 1 Locker. Stacked Washer/Dryer. Window Coverings And Light Fixtures Incl. Luxurious Amenities W/ 24 Hour Concierge, Gym, Party Room And More (29596469)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView_cellTen"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_cellTenHeader" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

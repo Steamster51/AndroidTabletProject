@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailScreen">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:background="#43FFFFFF"
+        android:foregroundTint="#42FFFFFF"
+        android:scaleType="center"
+        android:tint="#90000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welcomescreenbackground" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        android:onClick="backToGallery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/backicon" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton_Contact2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:onClick="email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/textView_Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="38dp"
+        android:text="#3301 -159 WELLESLEY ST E"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="$2100 per month. Never Lived-In Corner Unit Condo, Laminate Flooring Throughout, Large Windows, Close To Bloor St., Yorkville, University Of Toronto, Queens Park, Ryerson, Close To 2 Subway Lines, Quick Exit To 404. S/S Integrated Appliances, Modern Open Concept Kitchen, Quartz Countertop, High Ceilings, Open Balcony, Unobstructed City and Cn Tower Views.**** EXTRAS **** Morden Appliances: Fridge, Stove, Rangehood, Dishwasher, Stacked Washer And Dryer. Utilities Paid By The Tenant, Non-Smoking. (29488599)"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/floatingActionButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Address" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="500sp"
+        android:layout_height="500sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ap1p1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="10dp"
+        android:onClick="pic3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/ap1p2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="10dp"
+        android:onClick="pic4"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/ap1p3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="10dp"
+        android:onClick="pic5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/ap1p4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="10dp"
+        android:onClick="pic6"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/ap1p6" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="10dp"
+        android:onClick="pic7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/ap1p7" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:onClick="pic8"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/ap1p7" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="10dp"
+        android:onClick="pic1"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/ap1p1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
